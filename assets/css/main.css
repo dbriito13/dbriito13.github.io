@@ -134,6 +134,13 @@ input, select, textarea {
 		height: 20pt;
 	}
 
+	.language_grid{
+		display: grid; 
+		grid-auto-flow: column; 
+		grid-auto-columns: 1fr;
+	}
+
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
@@ -143,6 +150,13 @@ input, select, textarea {
 			.language_img{
 				height: 16pt;
 			}
+
+			.language_grid{
+				display: grid; 
+				grid-auto-flow: column; 
+				grid-auto-columns: 1fr;
+			}
+
 
 		}
 
@@ -156,6 +170,13 @@ input, select, textarea {
 				height: 15pt;
 			}
 
+			.language_grid{
+				display: grid; 
+				grid-auto-flow: column; 
+				grid-auto-columns: 1fr;
+			}
+
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -166,6 +187,12 @@ input, select, textarea {
 
 			.language_img{
 				height: 15pt;
+			}
+
+			.language_grid{
+				display: grid; 
+				grid-auto-flow: column; 
+				grid-auto-columns: 1fr;
 			}
 
 
@@ -181,6 +208,13 @@ input, select, textarea {
 				height: 15pt;
 			}
 
+			.language_grid{
+				display: grid; 
+				grid-auto-flow: column; 
+				grid-auto-columns: 1fr;
+			}
+
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -191,6 +225,13 @@ input, select, textarea {
 
 			.language_img{
 				height: 15pt;
+			}
+
+			.language_grid{
+				display: grid; 
+				grid-auto-flow: column; 
+				grid-auto-columns: 1fr;
+				grid-template-rows: 1fr 1fr;
 			}
 
 		}
