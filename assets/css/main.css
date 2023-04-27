@@ -129,11 +129,19 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.65;
 	}
+	
+	.language_img{
+		height: 20pt;
+	}
 
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
 				font-size: 13pt;
+			}
+
+			.language_img{
+				height: 16pt;
 			}
 
 		}
@@ -144,6 +152,10 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			.language_img{
+				height: 15pt;
+			}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -151,6 +163,11 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+
+			.language_img{
+				height: 15pt;
+			}
+
 
 		}
 
@@ -160,12 +177,20 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			.language_img{
+				height: 15pt;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+
+			.language_img{
+				height: 15pt;
 			}
 
 		}
