@@ -37,6 +37,10 @@ ol, ul {
 	list-style: none;
 }
 
+.swal2-styled{
+	line-height: 2.5em;
+}
+
 blockquote, q {
 	quotes: none;
 }

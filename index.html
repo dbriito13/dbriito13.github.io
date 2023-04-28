@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -149,7 +150,8 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<form method="post" action="https://formsubmit.co/2b8767fff74fd3fd5c1938595745381d">
+							<form method="post" action="https://formsubmit.co/2b8767fff74fd3fd5c1938595745381d" name="mail">
+								<input type="hidden" name="_next" value="https://dbriito13.github.io/">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -165,7 +167,7 @@
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><button type="submit" value="Send Message">Send Message</button></li>
 								</ul>
 							</form>
 							<ul class="contact">
@@ -190,6 +192,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="sweetalert2.all.min.js"></script>
+				
 	</body>
 </html>
