@@ -134,6 +134,11 @@ input, select, textarea {
 		height: 20pt;
 	}
 
+		
+	.intro_img{
+		height: 16.5pt;
+	}
+
 	.language_grid{
 		display: grid; 
 		grid-auto-flow: column; 
@@ -157,6 +162,9 @@ input, select, textarea {
 				grid-auto-columns: 1fr;
 			}
 
+			.intro_img{
+				height: 13pt;
+			}
 
 		}
 
@@ -176,6 +184,9 @@ input, select, textarea {
 				grid-auto-columns: 1fr;
 			}
 
+			.intro_img{
+				height: 12pt;
+			}
 
 		}
 
@@ -195,6 +206,9 @@ input, select, textarea {
 				grid-auto-columns: 1fr;
 			}
 
+			.intro_img{
+				height: 12pt;
+			}
 
 		}
 
@@ -214,6 +228,9 @@ input, select, textarea {
 				grid-auto-columns: 1fr;
 			}
 
+			.intro_img{
+				height: 12pt;
+			}
 
 		}
 
@@ -232,6 +249,10 @@ input, select, textarea {
 				grid-auto-flow: column; 
 				grid-auto-columns: 1fr;
 				grid-template-rows: 1fr 1fr;
+			}
+
+			.intro_img{
+				height: 12pt;
 			}
 
 		}
